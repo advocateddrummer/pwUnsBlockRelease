@@ -1,5 +1,3 @@
-# Pointwise V18.3R2 Journal file - Fri Aug 14 10:52:10 2020
-
 package require PWI_Glyph 3.18.3
 
 set pwFile [lindex $argv 0]
@@ -21,7 +19,7 @@ puts "##########################################################################
 puts "           Summary of blocks contained in $pwFile           "
 puts "           Block status is indicated as follows:            "
 puts "             a ^ indicates an unstructured block            "
-puts "             a # indicates a structured block              "
+puts "             a # indicates a structured block               "
 puts "             a @ indicates an extruded block                "
 puts "             a ! is an uninitialized unstructured block     "
 puts "             a * is an initialized unstructured block       "
@@ -95,3 +93,5 @@ if { $nReleasedBlocks > 0 } {
 }
 
 exit
+
+# vim: set ft=tcl:
